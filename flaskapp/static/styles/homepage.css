@@ -1,0 +1,66 @@
+body
+{   
+    background-color: black
+}
+
+ul
+{
+    list-style-type: none;
+    border-style:;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(navy 15%, cyan);
+}
+
+/* ul::after{
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(red,blue);
+    filter: blur(20px);
+    z-index: -1;
+    top: 11px;
+    left: 13px;
+} */
+
+ul::after.hover{
+    height: 103%;
+    width: 103%;
+    top: 0px;
+    left: 0px;
+}
+ul .right {
+    float: right;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    display: block;
+    color:black;
+    padding:30px 30px;
+    text-decoration: none; /* Remove underline from links */
+}
+li a:hover
+{
+    background-color: #B3EBF2;
+    color: brown;
+}
+.active
+{
+    background-color: brown;
+}
+p
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 100;
+    text-align: center;
+    padding:60px 60px;
+    color: green;
+    font-size: large;
+}
